@@ -1,2 +1,44 @@
-dasdasdas
-adsadasdas
+<!DOCTYPE html>
+<html>
+  <link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device=width, initial-scale=1.0">
+    <title>C A L C U L A T O R</title>
+    <link rel="stylesheet" href="style.css">
+  </head>  
+
+  <body>
+    <div id="first">
+      <form id="container">
+      <input type="text" id="mytext" disabled>
+  <p><button style="color: rgb(255, 0, 0);" type="button" id="clearButton">C</button>
+     <button style="color: rgb(1, 68, 5);" type="button">()</button>
+     <button style="color: rgb(1, 68, 5);" type="button">%</button>
+     <button style="color: rgb(1, 68, 5);" type="button">/</button>
+
+  <p><button type="button" onclick="appendNumber('7')" id="click">7</button>
+     <button type="button" onclick="appendNumber('8')">8</button>
+     <button type="button" onclick="appendNumber('9')">9</button>
+     <button style="color: rgb(1, 68, 5);" type="button">*</button>
+
+   <p><button type="button">4</button>
+     <button type="button">5</button>
+     <button type="button">6</button>
+     <button style="color: rgb(1, 68, 5);" type="button">-</button> 
+
+   <p><button type="button">3</button>
+     <button type="button">2</button>
+     <button type="button">1</button>  
+     <button style="color: rgb(1, 68, 5);" type="button">+</button>
+
+   <p><button type="button">+/-</button>
+    <button type="button">0</button>
+    <button type="button">.</button>
+    <button style="background-color: rgb(7, 46, 7); color: white" type="button">=</button> 
+   </form> 
+   </div>  
+   
+   <p id="test"></p>
+   <script src="script.js"></script>
+  </body>  
+</html> 
